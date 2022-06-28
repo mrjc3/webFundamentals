@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lecture.css">
+    <!-- <script>
+        function custom() {
+            // we can include more code here if we want to
+            // inline javascript isnt good practice
+            console.log("this message is coming from script.js")
+        }
+    </script> -->
+</head>
+
+
+<body>
+    <p>Happy Javascript Monday!</p>
+
+    <!-- on click creates a pop up notification -->
+    <button onclick="alert('What a beautiful Day!')">Click Me</button>
+    <!-- Custom function from the js file -->
+    <button onclick="custom()">Check the Console</button>
+    <button onclick="turtles()">turtle turtle turtle</button>
+    <button onclick="counter()">Counter</button>
+
+
+    <!-- keyword "this" is referring to "this" element -->
+    <button onclick="example(this)">"This"</button>
+
+
+    
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    
+
+
+
+    <!-- Adding the script tag at the bottom that loads the js file -->
+    <script src="script.js"></script>
+</body>
+
+
+</html>

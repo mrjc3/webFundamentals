@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navigation Bar */
+.nav {
+    height: 80px;
+    width: 900px;
+    background-color: lightgrey;
+    position: absolute;
+    left: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav input {
+    height: 30px;
+    width: 350px;
+}
+.nav button {
+    height: 30px;
+    width: 60px;
+    background-color: #2b78e4;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+}
+
+
+/* Definition1 */
+.def1 {
+    height: 230px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 190px;
+    border: 3px solid black;
+    font-size: larger;
+    
+}
+.def1 h1 {
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.def1 h3 {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-style: italic;
+}
+.def1 h5{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.divp {
+    
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: -40px;
+    left: 220px;
+    
+}
+.def1 button {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    height: 40px;
+    width: 90px;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+
+/* Definition 2 */
+.def2 {
+    height: 230px;
+    width: 550px;
+    background-color: white;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    border: 3px solid black;
+    font-size: larger;
+}
+.def2 h1 {
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.def2 h3 {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-style: italic;
+}
+.def2 h5{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.divp {
+    
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: -40px;
+    left: 220px;
+    
+}
+
+.def2 button {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    height: 40px;
+    width: 90px;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+
+/* Add Definition */
+.defclick {
+    height: 230px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: -105px;
+    left: 785px;
+    border: 3px solid black;
+}
+.defclick h1 {
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.defclick button {
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    background-color: #94c47d;
+    position: relative;
+    top: 60px;
+    left: 25px;
+}
