@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    height: 60px;
+    display: flex;
+}
+.navleft {
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 180px;
+}
+.navright {
+    height: 60px;
+    width: 350px;
+    background-color: black;
+}
+.navright button {
+    position: relative;
+    top: 15px;
+    left: 430px;
+    height: 30px;
+    width: 120px;
+    font-size: large;
+    color: white;
+    background-color: #18a2b8;
+    border: none;
+}
+.navgray {
+    color: lightgray;
+}
+
+
+
+/* Main Content Div */
+.maincontent {
+    height: 455px;
+}
+
+
+
+
+/* Usercard */
+.usercard {
+    height: 210px;
+    width: 230px;
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    
+}
+.usercardbanner {
+    height: 60px;
+    width: 351px;
+    background-color:#18a2b8;
+}
+.usercardcontent {
+    height: 150px;
+    width: 347px;
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+.usercardcontent h2 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.usercardcontent p {
+    font-size: smaller;
+    position: relative;
+    top: 65px;
+    left: 20px;
+}
+#state {
+    font-size: small;
+    position: relative;
+    top: 55px;
+    left: 35px;
+}
+.usercardcontent a {
+    position: relative;
+    top: 75px;
+    left: 40px;
+    font-size: smaller;
+    color: #4873a6;
+}
+#user-pic {
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    filter: invert();
+}
+.usercardcontent img {
+    height: 15px; 
+}
+.location {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.gear {
+    position: absolute;
+    top: 188px;
+    left: 20px;
+}
+
+
+
+/* Request */
+.request {
+    height: 120px;
+    width: 230px;
+    position: absolute;
+    top: 110px;
+    left: 700px;
+    
+}
+.requestbanner {
+    height: 50px;
+    width: 251px;
+    background-color: #333333;
+}
+.requestcontent {
+    height: 120px;
+    width: 247px;
+    background-color: white;
+    border: 2px solid lightgrey;
+
+}
+.requestbanner h3 {
+    color: white;
+    position: relative;
+    left: 55px;
+    top: -10px;
+}
+.requestbanner button {
+    height: 25px;
+    width: 25px;
+    border-radius: 40px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    background-color: lightgray;
+    color: #333333;
+}
+.requestcontent img {
+    height: 30px;
+}
+.todd {
+    border-radius: 50px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.phil {
+    border-radius: 50px;
+    position: relative;
+    left: -50px;
+    top: 15px;
+}
+.requestcontent h2 {
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+.acc {
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+}
+.dec {
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+}
+
+
+
+
+/* Education */
+.education {
+    height: 190px;
+    width: 230px;
+    position: absolute;
+    top: 360px;
+    left: 200px;
+}
+.educationbanner {
+    height: 50px;
+    width: 351px;
+    background-color: #333333;
+}
+.educationcontent {
+    height: 125px;
+    width: 347px;
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+.educationbanner h3 {
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.educationcontent h3 {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+.educationcontent h5 {
+    position: relative;
+    top: 30px;
+    left: 15px;
+    color: #727272;
+}
+.educationcontent h4 {
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+
+
+/* Connections */
+.connections {
+    height: 250px;
+    width: 230px;
+    position: absolute;
+    top: 320px;
+    left: 700px;
+}
+.connectionsbanner {
+    height: 50px;
+    width: 251px;
+    background-color: #333333;
+}
+.connectionscontent {
+    height: 240px;
+    width: 247px;
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+.connectionslink {
+    height: 40px;
+    width: 247px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-top: none;
+}
+.connectionsbanner h3 {
+    color: white;
+    position: relative;
+    left: 85px;
+    top: -10px;
+}
+.connectionsbanner button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    background-color: lightgray;
+    color: #333333;
+}
+.connectionscontent img {
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+
+}
+.connectionscontent h2 {
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+.connectionslink a {
+    color: #4873a6;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}

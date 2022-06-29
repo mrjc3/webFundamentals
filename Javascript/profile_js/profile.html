@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+
+<body>
+    
+    <div class="navbar">
+        <div class="navleft">
+            <h2>Profile</h2>
+            <h4 class="navgray">Home</h4>
+            <h4>My Profile</h4>
+            <h4 class="navgray">Find Connections</h4>
+        </div>
+        <div class="navright">
+            <button>Sign Out
+            </button>
+        </div>
+    </div>
+
+    <div class="maincontent">
+
+        <div class="usercard">
+            <div class="usercardbanner"></div>
+            <div class="usercardcontent">
+                <img id="user-pic" src="/Javascript/profile_js/assets/user-circle.png" alt="user-circle">
+                <h2 id="username">Jane Doe</h2>
+                <img class="location" src="/Javascript/profile_js/assets/map-marker.png" alt="map-marker"><p id="state"> California</p>
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of Shadows and the Internet!</p>
+                <img class="gear"src="/Javascript/profile_js/assets/gear.png" alt="gear"><a href="#" onclick="changeName()">Edit Profile</a>
+            </div>
+        </div>
+
+        <div class="request">
+            <div class="requestbanner">
+                <button type="button" disabled>2</button><h3>Connection Requests</h3>
+            </div>
+
+            <div class="requestcontent">
+                <img class="todd" src="/Javascript/profile_js/assets/todd-s.jpg" alt="todd"><h2>Todd E</h2><img onclick="removeUser1()" class="acc" src="/Javascript/profile_js/assets/accept-circle.png" alt="accept-circle"><img onclick="removeUser1()" class="dec" src="/Javascript/profile_js/assets/close-circle.png" alt="close-circle">
+                <img class="phil" src="/Javascript/profile_js/assets/phil-s.jpg" alt="phil"><h2 id="pname">Phil K</h2><img onclick="removeUser2()" id="pacc" class="acc" src="/Javascript/profile_js/assets/accept-circle.png" alt="accept-circle"><img onclick="removeUser2()" id="pdec" class="dec" src="/Javascript/profile_js/assets/close-circle.png" alt="close-circle">
+            </div>
+        </div>
+
+        <div class="education">
+            <div class="educationbanner">
+                <h3>Education</h3>
+            </div>
+            <div class="educationcontent">
+                <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                <h5>June 2022 - Sep 2022</h5>
+                <h4>Triple black belt in Python, MERN, and C#</h4>
+            </div>
+        </div>
+
+        <div class="connections">
+            <div class="connectionsbanner">
+                <button type="button" disabled>500+</button><h3>Your Connections</h3>
+            </div>
+            <div class="connectionscontent">
+                <img class="adrien" src="/Javascript/profile_js/assets/adrien-s.jpg" alt="adrien-s"><h2>Adrien D</h2>
+                <img class="anne" src="/Javascript/profile_js/assets/anne-s.jpg" alt="anne-s"><h2>Anne J</h2>
+                <img class="alayne" src="/Javascript/profile_js/assets/alayne-s.jpg" alt="alayne-s"><h2>Alayne T</h2>
+                <img class="arry" src="/Javascript/profile_js/assets/arry-s.jpg" alt="arry-s"><h2>Arry Y</h2>
+            </div>
+            <div class="connectionslink">
+                <a href="#">View More</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+<script src="profile.js"></script>
+</body>
+
+
+</html>
