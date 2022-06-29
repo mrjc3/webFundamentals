@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+    <div class="container">
+
+        <div class="navLeft">
+            <h1>DojoWeather</h1>
+        </div>
+
+        <div class="navRight">
+            <h3 onclick="alert('Loading weather report...')">Burbank</h3>
+            <h3 onclick="alert('Loading weather report...')">Chicago</h3>
+            <h3 onclick="alert('Loading weather report...')">Dallas</h3>
+        </div>
+
+        <div class="city">
+            <h1>San Jose</h1>
+            <p>show temperature in </p>
+            <select name="temperature" id="temperature" onchange="newTemp(this)">
+                <option value="celcius">℃</option>
+                <option value="fahrenheit">℉</option>
+            </select>
+        </div>
+
+        <div class="today">
+            <h1>Today</h1>
+            <img src="/Javascript/dojoweather/assets/some_rain.png" alt="some rain">
+            <p>some rain</p>
+            <h3 class="hi">24°</h3>
+            <h3 class="low">18°</h3>
+        </div>
+
+        <div class="tomorrow">
+            <h1>Tomorrow</h1>
+            <img src="/Javascript/dojoweather/assets/some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <h3 class="hi">27°</h3>
+            <h3 class="low">19°</h3>
+        </div>
+
+        <div class="friday">
+            <h1>Friday</h1>
+            <img src="/Javascript/dojoweather/assets/some_clouds.png" alt="some clouds">
+            <p>some clouds</p>
+            <h3 class="hi">21°</h3>
+            <h3 class="low">16°</h3>
+        </div>
+
+        <div class="saturday">
+            <h1>Saturday</h1>
+            <img src="/Javascript/dojoweather/assets/some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <h3 class="hi">26°</h3>
+            <h3 class="low">21°</h3>
+        </div>
+        
+    </div>
+
+    <div class="cookies">
+        <h2>Stop! Cookie time</h2>
+        <div class="cookiesP">
+            <p>We use cookies(sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <img src="/Javascript/dojoweather/assets/cookie.png" alt="cookie">
+        <button onclick="accept()">I Accept</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
